@@ -54,7 +54,6 @@ public class App {
                 }
             
                 String date = verifyDateFormat(array[3]);
-            // System.out.println(date);
             
                 if (!date.equals(array[3])) {
                     throw new CheckDateExeption();
@@ -86,13 +85,6 @@ public class App {
                     e.printStackTrace();
                 }
 
-            //System.out.println(Arrays.toString(array));
-            //System.out.println(familyArray);
-            
-            // } catch (NumberFormatException e) {
-            //     System.out.println("Неверный  формат номера телефона");
-            // } catch (RuntimeException e) {
-            //     System.out.println(e);
             } catch (Exception e) {
                 System.out.println(e);
             }
